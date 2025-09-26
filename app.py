@@ -10,29 +10,46 @@ from graphviz import Digraph
 st.set_page_config(page_title="Invoice Processor Agent", layout="wide")
 st.title("📄 Invoice Processor Agent")
 
-# --- Dark Background and CSS Styling ---
+
+#----------------------------------------------------------
 st.markdown(
     """
     <style>
-    /* Dark background for the app */
+   
+     /* Dark background for the app */
+    .stApp {
+        background-color: #125589;
+        color: #ffffff;
+    }    
+    
+
+    /* ✅ "Upload Invoice Image" label → white */
+    .stFileUploader > label {
+        color: white !important;
+        font-weight: bold;
+    }
+    
+    
+    
+    /* Keep your dark background for the main app */
     .stApp {
         background-color: #125589;
         color: #ffffff;
     }
-    /* Headers */
-    h1, h2, h3 {
-        color: #ff99cc;  /* Pinkish header */
-    }
+
+header {
+    background-color:  #7b2cbf !important; /*  blue */
+    height: 40px;
+}
    
-    /* File uploader style */
+    /* File uploader */
     .css-1r6slb0 {
         background-color: #125589;
         color: white;
         border-radius: 20px;
     }
     
-    
-    /* Info/warning/success boxes */
+    /* Alerts */
     .stAlert {
         border-radius: 10px;
         padding: 10px;
@@ -40,13 +57,11 @@ st.markdown(
         background-color: #333333;
     }
     
-    /* Make form labels (e.g., "Recipient Email") white */
-.stTextInput > label {
-    color: white !important;
-    font-weight: bold;
-}
-   
-   
+    /* Labels */
+    .stTextInput > label {
+        color: white !important;
+        font-weight: bold;
+    }
    
     /* Buttons */
     .stButton>button {
@@ -58,6 +73,11 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
+
+
+
 
 # --- Ensure input folder & DB exist ---
 ensure_schema()

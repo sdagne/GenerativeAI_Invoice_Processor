@@ -3,6 +3,9 @@ invoice-env/
 venv/
 env/
 
+# Secrets
+.env
+config.py
 # Python cache and bytecode
 __pycache__/
 *.pyc
