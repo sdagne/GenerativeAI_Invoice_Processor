@@ -200,7 +200,8 @@ See [`LICENSE`](LICENSE) for full details.
 
 ### ▶️ Quick Start  
 ```bash
-git clone https://github.com/sdagne/GenAI-Public.git
-cd GenAI-Public
+
+git clone https://github.com/sdagne/GenerativeAI_Invoice_Processor
+
 ```
 
