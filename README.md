@@ -9,7 +9,6 @@
 
 An AI-powered system for processing and generating invoices using generative AI models.
 
-\\\
 ## 📁 Project Structure
 
 ```text
@@ -106,9 +105,8 @@ Follow these 5 steps to set up the **LangGraph Agent Invoice Processor** locally
    Open `config.py` and add your API key and model:
    ```python
    API_KEY = "your_api_key_here"
-   MODEL = "gpt-4"  # or your preferred LangGraph-compatible model
+   MODEL = ""gpt-4.1-nano""  # or your preferred LangGraph-compatible model
    ```
-
 5. **Set up email notifications**  
    - Enable **2-Factor Authentication** on your Gmail account  
    - Generate a **Google App Password** for `xxxxxx.yyyyyy@gmail.com`  
