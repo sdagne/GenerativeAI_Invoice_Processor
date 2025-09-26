@@ -35,7 +35,7 @@ LanGraph_Invoice_processor/
 \\\
 
 ### 🔵 Project Overview
-![App Screenshot](docs/app-screenshot.png)
+
 The **LangGraph Agent Invoice Processor** automates end-to-end invoice management using generative AI and smart orchestration. Built with a clean Streamlit UI, it transforms raw invoice images into structured, validated data—reducing manual effort and improving accuracy.
 
 Key capabilities include:
@@ -80,7 +80,7 @@ Follow these 5 steps to set up the **LangGraph Agent Invoice Processor** locally
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/LanGraph_Invoice_processor.git
+   git clone https://github.com/sdagne/GenerativeAI_Invoice_Processor.git
    cd LanGraph_Invoice_processor
    ```
 
