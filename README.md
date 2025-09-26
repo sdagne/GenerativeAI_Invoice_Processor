@@ -175,11 +175,15 @@ The Streamlit interface features:
 
 ### 🔮 Future Improvements  
 Planned enhancements to expand functionality and robustness:  
+
 - ✅ **PDF invoice support** – Extract text from PDF uploads (via PyMuPDF or pdf2image)  
 - 🌍 **Multi-language OCR** – Support invoices in non-English languages (EasyOCR already enables this!)  
 - ☁️ **Cloud database integration** – Enable multi-user access with PostgreSQL or Firebase  
 - 🎯 **Fine-tuned AI extraction** – Custom models for complex or industry-specific invoices  
 - 📧 **Dynamic email templates** – Include invoice summary, total, and download link in notifications  
+- 💬 **WhatsApp & Telegram notifications** – Send real-time processing alerts via WhatsApp (via Twilio) or Telegram Bot API  
+
+
 
 ---
 
