@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-core
+euriai
+pydantic
+python-dotenv
+langgraph
+pypdf
+#pygraphviz
+#diagraph
+
+graphviz
