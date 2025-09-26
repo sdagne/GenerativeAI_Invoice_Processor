@@ -38,7 +38,13 @@ with col_photo:
     st.markdown("</div>", unsafe_allow_html=True)
     #-----------------------------------------------------------------
     
-
+# ✅ Add the white horizontal line here
+st.markdown(
+    """
+    <hr style="border: 0; height: 1px; background-color: white; margin: 10px 0;">
+    """,
+    unsafe_allow_html=True
+)
 #----------------------------------------------------------
 st.markdown(
     """
