@@ -6,10 +6,38 @@ from Fileload import INPUT_DIR, seen, save_seen, ensure_schema
 from email_notify import send_email
 from graphviz import Digraph
 
+
+
+#--------------------------------------------------------
+
 # --- Page Config ---
 st.set_page_config(page_title="Invoice Processor Agent", layout="wide")
-st.title("📄 Invoice Processor Agent")
 
+# --- Header: Title + Profile Photo in same row ---
+col_title, col_photo = st.columns([5, 1])  # Adjust ratio as needed
+
+with col_title:
+    st.title("📄 Invoice Processor Agent")
+
+with col_photo:
+    st.markdown(
+        """
+        <style>
+        .profile-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            height: 60px; /* Match title height */
+        }
+        </style>
+        <div class="profile-container">
+        """,
+        unsafe_allow_html=True
+    )
+    st.image("images/shewan.png", width=120)  # Adjust size to match title
+    st.markdown("</div>", unsafe_allow_html=True)
+    #-----------------------------------------------------------------
+    
 
 #----------------------------------------------------------
 st.markdown(
@@ -83,7 +111,7 @@ st.markdown(
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: #1a1a1a;
+        background-color: #8A2BE2; /*violet*/
         color: #cccccc;
         text-align: center;
         padding: 8px 0;
@@ -100,7 +128,8 @@ st.markdown(
     }
     </style>
     <div class="footer">
-        Developed by <a href="https://github.com/sdagne" target="_blank">Shewan Dagne</a> &bull; as part of the Generative AI Learning Project
+        <strong>Developed by <a href="https://github.com/sdagne" target="_blank"><em>Shewan Dagne</em></a> &bull; as part of the Generative AI Learning Project</strong>
+
     </div>
     """,
     unsafe_allow_html=True
