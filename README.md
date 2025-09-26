@@ -153,6 +153,9 @@ The Streamlit interface features:
 - **Side-by-side layout**: invoice preview (~6 cm width) + interactive controls  
 - Real-time status updates and email notification input  
 
+
+![Invoice Processor Workflow](images/screenshot.jpg)
+
 ---
 
 ### 🔮 Future Improvements  
