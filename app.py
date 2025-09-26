@@ -140,10 +140,21 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+#--------------------------------------------------------------
 
 
+#---------------------------------------------------
 
+# In your sidebar section (after other buttons)
+with st.sidebar:
+    st.title("My other Projects & Achievements")
+   # st.write("click to test").
 
+    # --- External App Links ---
+   # st.markdown("### 🔗 Other Projects")
+   
+    st.link_button("📊 Shewan Prediction App", "https://shewan-predition.streamlit.app/")
+    st.link_button("🦷 Medichat Dental Clinic", "https://medichat-dental-clinic.streamlit.app/")
 
 
 # --- Ensure input folder & DB exist ---
