@@ -74,6 +74,38 @@ header {
     unsafe_allow_html=True
 )
 
+# --- Footer ---
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #1a1a1a;
+        color: #cccccc;
+        text-align: center;
+        padding: 8px 0;
+        font-size: 14px;
+        border-top: 1px solid #333333;
+        z-index: 100;
+    }
+    .footer a {
+        color: #ff99cc;
+        text-decoration: none;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    </style>
+    <div class="footer">
+        Developed by <a href="https://github.com/sdagne" target="_blank">Shewan Dagne</a> &bull; as part of the Generative AI Learning Project
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 
 

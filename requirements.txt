@@ -8,3 +8,4 @@ langgraph
 pypdf
 streamlit
 graphviz
+python-dotenv
