@@ -165,7 +165,16 @@ Planned enhancements to expand functionality and robustness:
 - 📧 **Dynamic email templates** – Include invoice summary, total, and download link in notifications  
 - 💬 **WhatsApp & Telegram notifications** – Send real-time processing alerts via WhatsApp (via Twilio) or Telegram Bot API  
 
+### Password Creation##
 
+-> go to google.ch
+-> write google app password
+-> click on Sign in with app passwords - Google Account Help
+-> scroll down and under Create & use app passwords, 
+    --> click on Create and manage your app passwords.
+    --> you should enable 2-Step verification
+    --> under App passwords: write the app name oyu want and click on create
+    --> you will get something like this: "mfhc ghyn tqaj xphd"
 
 ---
 
