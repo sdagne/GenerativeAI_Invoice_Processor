@@ -6,7 +6,5 @@ pydantic
 python-dotenv
 langgraph
 pypdf
-#pygraphviz
-#diagraph
-
+streamlit
 graphviz
