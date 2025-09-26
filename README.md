@@ -130,7 +130,7 @@ streamlit run app.py
 - **📨 Send Email**: Click the button to trigger a success notification  
 - **🌐 Processing Pipeline**: View the horizontal, pink-colored knowledge graph showing each AI step  
 - **🖼️ Invoice Preview**: Uploaded invoice displays on the side (~6 cm width)
-
+![Invoice Processor Workflow](images/screenshot.jpg)
 ```
 
 ### 🔵 Knowledge Graph Nodes
@@ -154,7 +154,7 @@ The Streamlit interface features:
 - Real-time status updates and email notification input  
 
 
-![Invoice Processor Workflow](images/screenshot.jpg)
+
 
 ---
 
