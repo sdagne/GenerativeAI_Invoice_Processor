@@ -131,24 +131,6 @@ streamlit run app.py
 - **🌐 Processing Pipeline**: View the horizontal, pink-colored knowledge graph showing each AI step  
 - **🖼️ Invoice Preview**: Uploaded invoice displays on the side (~6 cm width)
 
-
-
-### 📁 File Structure
-
-```text
-LangGraph-Invoice-Processor/
-│
-├── app.py                 # Main Streamlit UI application
-├── Fileload.py            # Handles file uploads and SQLite database operations
-├── DataPrep.py            # OCR (EasyOCR), LangGraph AI nodes, and pipeline logic
-├── email_notify.py        # Sends email notifications via Gmail SMTP
-│
-├── invoices/              # Stores uploaded invoice images (PNG/JPG)
-├── processed.json         # Tracks already-processed invoice files (idempotency)
-├── invoice.sqlite         # Local SQLite database for structured invoice data
-│
-├── requirements.txt       # Python dependencies (Streamlit, LangGraph, EasyOCR, etc.)
-└── README.md              # Project documentation
 ```
 
 ### 🔵 Knowledge Graph Nodes
