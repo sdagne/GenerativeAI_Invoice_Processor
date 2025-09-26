@@ -68,7 +68,7 @@ This solution bridges document intelligence and workflow automation—ideal for 
 - **Python 3.12+** – Core programming language  
 - **Streamlit** – Interactive web interface for file upload and visualization  
 - **EasyOCR** – Optical Character Recognition (OCR) for extracting text from invoice images  
-- **LangGraph (EurAI)** – AI-powered pipeline for cleaning, normalizing, and extracting structured data  
+- **LangGraph (Euri-AI)** – AI-powered pipeline for cleaning, normalizing, and extracting structured data  
 - **SQLite3** – Lightweight local database for storing processed invoice records  
 - **Graphviz** – Generates color-coded knowledge graph visualizations of the processing pipeline  
 - **SMTP/Gmail** – Sends email notifications upon successful invoice processing  
@@ -152,9 +152,6 @@ The Streamlit interface features:
 - A **horizontal pink knowledge graph** visualizing the processing pipeline  
 - **Side-by-side layout**: invoice preview (~6 cm width) + interactive controls  
 - Real-time status updates and email notification input  
-
-
-
 
 ---
 
