@@ -11,15 +11,6 @@ from graphviz import Digraph
 #--------------------------------------------------------
 st.set_page_config(page_title="Invoice Processor Agent", layout="wide")
 
-st.markdown(
-    """
-    <div class="footer">
-        <em>Special thanks to the entire Euron team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 # --- Header: Title + Name in same row ---
 col_title, col_name = st.columns([5, 1])  # Adjust ratio as needed
 
