@@ -21,7 +21,7 @@ with col_name:
     st.markdown(
         """
         <div style="display: flex; justify-content: flex-end; align-items: center; height: 60px;">
-            <span style="font-size: 30px; font-weight: bold; color: white;">Shewan Dagne</span>
+            <span style="font-size: 30px; font-weight: bold; color: white;">Developed by Shewan Dagne</span>
         </div>
         """,
         unsafe_allow_html=True
