@@ -9,12 +9,23 @@ from graphviz import Digraph
 
 
 #--------------------------------------------------------
-
-# --- Page Config ---
 st.set_page_config(page_title="Invoice Processor Agent", layout="wide")
 
-# --- Header: Title only ---
-st.title("📄 Invoice Processor Agent")
+# --- Header: Title + Name in same row ---
+col_title, col_name = st.columns([5, 1])  # Adjust ratio as needed
+
+with col_title:
+    st.title("📄 Invoice Processor Agent")
+
+with col_name:
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: flex-end; align-items: center; height: 60px;">
+            <span style="font-size: 20px; font-weight: bold; color: white;">Shewan Dagne</span>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 # ✅ Add the white horizontal line
 st.markdown(
