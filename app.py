@@ -13,29 +13,17 @@ from graphviz import Digraph
 # --- Page Config ---
 st.set_page_config(page_title="Invoice Processor Agent", layout="wide")
 
-# --- Header: Title + Profile Photo in same row ---
-col_title, col_photo = st.columns([5, 1])  # Adjust ratio as needed
+# --- Header: Title only ---
+st.title("📄 Invoice Processor Agent")
 
-with col_title:
-    st.title("📄 Invoice Processor Agent")
+# ✅ Add the white horizontal line
+st.markdown(
+    """
+    <hr style="border: 0; height: 1px; background-color: white; margin: 10px 0;">
+    """,
+    unsafe_allow_html=True
+)
 
-with col_photo:
-    st.markdown(
-        """
-        <style>
-        .profile-container {
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-start;
-            height: 60px; /* Match title height */
-        }
-        </style>
-        <div class="profile-container">
-        """,
-        unsafe_allow_html=True
-    )
-    st.image("images/shewan.png", width=120)  # Adjust size to match title
-    st.markdown("</div>", unsafe_allow_html=True)
     #-----------------------------------------------------------------
     
 # ✅ Add the white horizontal line here
