@@ -234,10 +234,6 @@ with col_right:
             caption="Uploaded Invoice",
             width=227  # ≈ 6 cm
         )
-        
-     st.markdown("---")  # horizontal line
-
-   
 
 #print("Graphviz imported successfully")
 #dot = Digraph(comment='Test Graph')
