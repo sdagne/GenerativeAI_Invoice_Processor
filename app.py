@@ -27,6 +27,22 @@ with col_name:
         unsafe_allow_html=True
     )
 
+# Your app content above
+st.markdown("---")  # horizontal line
+
+# Thank-you note
+st.markdown(
+    """
+    <div class="footer">
+        <em>Special thanks to the entire Euron team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
 # ✅ Add the white horizontal line
 st.markdown(
     """
