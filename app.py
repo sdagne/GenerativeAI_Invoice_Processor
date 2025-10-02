@@ -246,7 +246,7 @@ st.markdown(
         text-align:center; 
         margin-top:10px;
     ">
-        <em>Special thanks to the entire Euron team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
+        <em>Special thanks to the entire Euron Team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
     </div>
     """,
     unsafe_allow_html=True
