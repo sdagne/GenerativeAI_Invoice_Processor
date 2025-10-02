@@ -113,25 +113,6 @@ header {
 
 
 
-st.markdown("---")  # horizontal line
-
-# Thank-you note with inline style
-st.markdown(
-    """
-    <div style="
-        font-size:14px; 
-        color:gray; 
-        text-align:center; 
-        margin-top:10px;
-    ">
-        <em>Special thanks to the entire Euron team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
-
 # --- Footer ---
 st.markdown(
     """
@@ -254,7 +235,23 @@ with col_right:
             width=227  # ≈ 6 cm
         )
         
-        
+     st.markdown("---")  # horizontal line
+
+# Thank-you note with inline style
+st.markdown(
+    """
+    <div style="
+        font-size:14px; 
+        color:gray; 
+        text-align:center; 
+        margin-top:10px;
+    ">
+        <em>Special thanks to the entire Euron team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+   
 
 #print("Graphviz imported successfully")
 #dot = Digraph(comment='Test Graph')
