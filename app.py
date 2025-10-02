@@ -107,6 +107,7 @@ header {
     unsafe_allow_html=True
 )
 
+
 # --- Footer ---
 st.markdown(
     """
@@ -154,6 +155,16 @@ st.markdown(
    
  #   st.link_button("📊 Shewan Prediction App", "https://shewan-predition.streamlit.app/")
 #   st.link_button("🦷 Medichat Dental Clinic", "https://medichat-dental-clinic.streamlit.app/")
+
+
+st.markdown(
+    """
+    <div style="font-size:14px; color:gray; text-align:center; margin-top:10px;">
+        <em>Special thanks to the entire Euron team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # --- Ensure input folder & DB exist ---
