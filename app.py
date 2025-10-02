@@ -237,20 +237,6 @@ with col_right:
         
      st.markdown("---")  # horizontal line
 
-# Thank-you note with inline style
-st.markdown(
-    """
-    <div style="
-        font-size:14px; 
-        color:gray; 
-        text-align:center; 
-        margin-top:10px;
-    ">
-        <em>Special thanks to the entire Euron Team, and particularly to the instructor, Mr. Sudanshu, for his guidance.</em>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
    
 
 #print("Graphviz imported successfully")
