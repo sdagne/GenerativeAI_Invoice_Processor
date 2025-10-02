@@ -116,7 +116,7 @@ st.markdown(
     <div style="margin-top: 20px; padding: 10px; background-color: #7b2cbf; color: white; border-radius: 10px;">
         <strong>Special Thanks to Euron and Sudanshu</strong> 🙏<br>
         Connect with Sudanshu on 
-        <a href="https://www.linkedin.com/in/sudanshu/" target="_blank" style="color: #ffccff; text-decoration: underline;">
+        <a href="https://www.linkedin.com/in/-sudhanshu-kumar/" target="_blank" style="color: #ffccff; text-decoration: underline;">
             LinkedIn
         </a>
     </div>
