@@ -110,20 +110,6 @@ header {
     """,
     unsafe_allow_html=True
 )
-# --- Thank You Message ---
-st.markdown(
-    """
-    <div style="margin-top: 20px; padding: 10px; background-color: #7b2cbf; color: white; border-radius: 10px;">
-        <strong>Special Thanks to Euron and Sudanshu Kumar</strong> 🙏<br>
-        Connect with Sudanshu on 
-        <a href="https://www.linkedin.com/in/-sudhanshu-kumar/" target="_blank" style="color: #ffccff; text-decoration: underline;">
-            LinkedIn
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 
 
 # --- Footer ---
@@ -247,7 +233,19 @@ with col_right:
             caption="Uploaded Invoice",
             width=227  # ≈ 6 cm
         )
-
+# --- Thank You Message ---
+st.markdown(
+    """
+    <div style="margin-top: 20px; padding: 10px; background-color: #7b2cbf; color: white; border-radius: 10px;">
+        <strong>Special Thanks to Euron and the instructor Sudanshu Kumar</strong> 🙏<br>
+        Connect with Sudanshu on 
+        <a href="https://www.linkedin.com/in/-sudhanshu-kumar/" target="_blank" style="color: #ffccff; text-decoration: underline;">
+            LinkedIn
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 #print("Graphviz imported successfully")
 #dot = Digraph(comment='Test Graph')
 #dot.node('A', 'Start')
